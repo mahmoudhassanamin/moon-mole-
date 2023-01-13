@@ -1,0 +1,131 @@
+*{
+    box-sizing: border-box;
+}
+*::first-letter{
+    text-transform: capitalize;
+}
+body{
+    background-image: url(materials/body_img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+}
+.nav1{
+    position: relative;
+    display:block;
+}
+.homelogo{
+    margin-left: 3vw;
+    width: 3.5vw;
+    height: 3.5vw;
+    border: 2px solid white;
+    border-radius: 2vw;
+    transition: all 1s ease 0s;
+}
+nav{
+    position: sticky;
+    top: 0;
+    display: block;
+    background-color: #000000b8;
+    width: 97vw;
+    padding: 0.2vw 3vw;
+    margin: 0 auto 2vw;
+    border-radius: 1vw 0 1vw 0 ;
+    z-index: 1;
+}
+
+.menu::before{
+    content: 'f0c9' ;
+}
+.menu{
+    font-family: fontAwesome ;
+    font-style: normal;
+    position:relative;
+    width: fit-content ;
+    left:50%;
+    right:50%;
+    display: none;
+}
+nav ul{
+    position: absolute;
+    right: 0;
+    display: inline-block;
+    width: 60vw;
+    padding: 0;
+    margin: 0;
+}
+nav li{
+
+    margin: 1vw 0 1vw 5vw  ;
+    font-size: 2vw;
+    display: inline-block;
+}
+a{
+    color: aliceblue;
+    text-decoration: none;
+}
+footer{
+    background-color: black;
+    bottom: 0;
+    width: 100%;
+    margin-top: 10vw;
+}
+
+footer p{
+    font-size: 2vw;
+    display: inline-block;
+    color: white;
+    margin:0.5vw 4vw;
+}
+
+footer div{
+    width: fit-content;
+    margin:auto;
+}
+
+a:hover{
+    color: #b7ced2;
+    font-size: 1.9vw;
+}
+
+.homelogo:hover{
+    rotate: 360deg;
+    width: 3.75vw;
+    height: 3.75vw;
+    border: 3px solid red;
+}
+
+@media screen and (max-width:720px){
+    .menu{
+        display: block;
+        color: white    ;
+    }
+    .nav1{
+        display: none;
+    }
+    .menu:hover{
+        cursor: pointer;
+    }
+    .menu:focus ~ .nav1{
+        display: block;
+    }
+    nav ul{
+        width: 100%;
+        background-color: rgb(0,0,0,0.5);
+        margin: auto;
+    }
+    nav ul li{
+        display: block;
+        text-align: center;
+        margin: auto;
+
+    }
+    .homelink{
+        display: none;
+    }
+    li a{
+        font-size: 3vw;
+    }
+}
