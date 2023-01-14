@@ -1,0 +1,26 @@
+.tablefix{
+    margin-left: 5vw;
+    margin-right: 5vw;
+    margin-top: 5vw;
+    font-size: 2vw;
+    color: rgba(255, 255, 255, 0.8);
+    background-color: rgb(0,0,0,0.5);
+    border-radius: 1vw;
+    padding: 1vw;
+}
+
+table, th, td{
+    border:0.1vw solid black;
+}
+
+th,td{
+    padding: 1vw;
+
+}
+
+table>caption{
+    position: relative;
+    right: 35vw;
+    font-size: 3vw;
+
+}
