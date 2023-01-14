@@ -1,0 +1,273 @@
+form{
+    position: relative;
+    top:-1vw;
+    background-color: rgb(0,0,0,0.5);
+    width: 40vw;
+    height: 34vw;
+    margin: auto;
+    padding: 1vw;
+    font-size: 2vw;
+    color: rgba(255, 255, 255, 0.8);
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.Registerlabel{
+    position:absolute;
+    left: 33%;
+    top: 5%;
+    font-size: 130%;
+}
+
+
+.label1{  
+    position:absolute;
+    left:8%;
+    top: 17%;   
+}
+
+.label1-1{  
+    position:absolute;
+    left:33%;
+    top: 17%;
+    width: 60%;
+    height: 8%;
+    font-size: 70%;
+    display: inline-block;
+    margin: auto;
+    border: 2px solid black;
+    border-radius: 10px;
+
+}
+
+.label2{  
+    position:absolute;
+    left:8%;
+    top: 28%;
+}
+.label2-1{  
+    position:absolute;
+    left:33%;
+    top: 28%;
+    width: 60%;
+    height: 8%;
+    font-size: 70%;
+    display: inline-block;
+    margin: auto;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.label3{  
+    position:absolute;
+    left:8%;
+    top: 40%;
+}
+
+
+.label3-1{  
+    position:absolute;
+    left:33%;
+    top: 40%;
+}
+
+.label4{  
+    position:absolute;
+    left:8%;
+    top: 52%;
+
+}
+
+.label4-1{  
+    position:absolute;
+    left:33%;
+    top: 52%;
+    width: 60%;
+    height: 8%;
+    font-size: 70%;
+    display: inline-block;
+    margin: auto;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+
+.label5{  
+    position:absolute;
+    left:8%;
+    top: 65%;
+}
+
+.label5-1{  
+    position:absolute;
+    left:33%;
+    top: 65%;
+    width: 60%;
+    height: 8%;
+    font-size: 70%;
+    display: inline-block;
+    margin: auto;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.label6{  
+    position:absolute;
+    left:8%;
+    top: 75%;
+}
+
+.label6-1{  
+    position:absolute;
+    left:33%;
+    top: 75%;
+    width: 60%;
+    height: 8%;
+    font-size: 70%;
+    display: inline-block;
+    margin: auto;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.submit{
+    position: absolute;
+    bottom:5%;
+    left:40%;
+    padding: 2% 7%;
+    background-color: rgba(0, 0, 0, 0.59);
+    color: white;
+    font-size: 60%;
+    border: 2px solid white;
+    border-radius: 20px;
+}
+.submit:hover{
+    cursor: pointer;
+    color:#b7ced2;
+}
+
+
+@media screen and (max-width:720px){
+    form{
+        top:5vw;
+        font-size: 2vw;
+        width: 45vw;
+        height: 65vw;
+    }
+    
+    .Registerlabel{
+        left: 5%;
+        top: 5%;
+        font-size: 130%;
+    }
+    
+    .label1{  
+        position:absolute;
+        left:38%;
+        top: 11%;   
+    }
+    
+    .label1-1{  
+        position:absolute;
+        left:13%;
+        top: 16%;
+        width: 76%;
+        height: 8%;
+        font-size: 85%;
+        margin: auto;
+        border: 2px solid black;
+        border-radius: 10px;
+    
+    }
+    
+    .label2{  
+        position:absolute;
+        left:38%;
+        top: 26%;
+    }
+    .label2-1{  
+        position:absolute;
+        left:13%;
+        top: 31%;
+        width: 76%;
+        height: 8%;
+        font-size: 85%;
+        margin: auto;
+        border: 2px solid black;
+        border-radius: 10px;
+    }
+    
+    .label3{  
+        position:absolute;
+        left:38%;
+        top: 40%;
+    }
+    
+    
+    .label3-1{  
+        position:absolute;
+        left:24%;
+        top: 44%;
+    }
+    
+    .label4{  
+        position:absolute;
+        left:38%;
+        top: 50%;
+    
+    }
+    
+    .label4-1{  
+        position:absolute;
+        left:13%;
+        top: 55%;
+        width: 76%;
+        height: 8%;
+        font-size: 85%;
+        margin: auto;
+        border: 2px solid black;
+        border-radius: 10px;
+    }
+    
+    
+    .label5{  
+        position:absolute;
+        left:38%;
+        top: 63%;
+    }
+    
+    .label5-1{  
+        position:absolute;
+        left:13%;
+        top: 68%;
+        width: 76%;
+        height: 8%;
+        font-size: 85%;
+        display: inline-block;
+        margin: auto;
+        border: 2px solid black;
+        border-radius: 10px;
+    }
+    
+    .label6{  
+        position:absolute;
+        left:38%;
+        top: 77%;
+    }
+    
+    .label6-1{  
+        position:absolute;
+        left:13%;
+        top: 81%;
+        width: 76%;
+        height: 8%;
+        font-size: 85%;
+    }
+    
+    .submit{
+        position: absolute;
+        bottom:2%;
+        right:10%;
+        padding: 2% 7%;
+        font-size: 80%;
+    }
+}
