@@ -11,6 +11,9 @@ body{
     background-attachment: fixed;
     margin: 0;
     padding: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 .nav1{
     position: relative;
@@ -70,11 +73,12 @@ footer{
     background-color: black;
     bottom: 0;
     width: 100%;
-    margin-top: 10vw;
+    margin-top: auto;
+
 }
 
 footer p{
-    font-size: 2vw;
+    font-size: 1.5vw;
     display: inline-block;
     color: white;
     margin:0.5vw 4vw;
