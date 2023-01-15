@@ -58,3 +58,27 @@ u{
     color: white;
 }
 
+@media screen and (max-width:720px){
+    .product>div{
+        display: block;
+        width:50%;
+        margin:3% 25% 8%;
+
+    }
+    .product{  
+        width:fit-content;
+        font-size: 1.5vw;
+        margin: 4vw auto;
+        padding: 1vw;
+    }
+    section div>img{
+        width: 100%;
+        height: 25vw;
+    }
+    .product>div>p{
+       font-size: 170%;
+    }
+    a{
+        font-size: 170%;
+    }
+}
