@@ -112,9 +112,6 @@ a:hover{
     .menu:hover{
         cursor: pointer;
     }
-    .menu:focus ~ .nav1{
-        display: block;
-    }
     nav ul{
         width: 100%;
         background-color: rgb(0,0,0,0.5);
